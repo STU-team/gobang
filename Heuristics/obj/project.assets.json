@@ -55,23 +55,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sensei\\.nuget\\packages\\": {},
-    "D:\\huanchun\\NuGetPackages": {}
+    "C:\\Users\\yyj\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sensei\\source\\repos\\启发式\\启发式.csproj",
+      "projectUniqueName": "E:\\gobang\\Heuristics\\启发式.csproj",
       "projectName": "启发式",
-      "projectPath": "C:\\Users\\sensei\\source\\repos\\启发式\\启发式.csproj",
-      "packagesPath": "C:\\Users\\sensei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sensei\\source\\repos\\启发式\\obj\\",
+      "projectPath": "E:\\gobang\\Heuristics\\启发式.csproj",
+      "packagesPath": "C:\\Users\\yyj\\.nuget\\packages\\",
+      "outputPath": "E:\\gobang\\Heuristics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\huanchun\\NuGetPackages"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sensei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yyj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -97,7 +97,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -124,7 +125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
