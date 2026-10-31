@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class GomokuAiClient {
 
-    private static final String BASE_URL = "https://gomoku.handywote.site/";
+    private static final String BASE_URL = "http://localhost:10086/";
     private static final String API_PATH = "api/gomoku";
 
     private final HttpClient httpClient;

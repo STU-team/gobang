@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Net.NetworkInformation;
 using System.Reflection;
 using System.Threading;
@@ -42,7 +42,7 @@ public class Test
     }
     public static async Task Main(string[] arg)
     {
-        var apiClient = new GomokuApiClient("https://gomoku.handywote.site/");
+        var apiClient = new GomokuApiClient("http://localhost:10086/");
 
         // 创建新的棋盘
         var createResponse = await apiClient.CreateChessboard(new GomokuRequest { id = ids,x = 9 ,y = 9 });

@@ -9,14 +9,14 @@ class AI(abc.ABC):
     def __init__(self)->None:
         pass
 
-class Deepseek(AI):
+class Qwen(AI):
     from openai import OpenAI
     def __init__(self):
         with open('config.json', 'r') as f:
             config = json.load(f)
-            self.api_key = config.get("deepseek_api_key")
-            self.model_name = config.get("deepseek_model_name")
-            self.url = config.get("deepseek_url")
+            self.api_key = config.get("qwen_api_key")
+            self.model_name = config.get("qwen_model_name")
+            self.url = config.get("qwen_url")
         
     def get_response(self, prompt) -> tuple[int, int]:
         system_prompt = """
@@ -130,7 +130,7 @@ def write_board(x: int, y: int):
         json.dump({"board": board}, f)
 
 if __name__ == "__main__":
-    ai = Deepseek()
+    ai = Qwen()
     current_board = get_board()
     response = ai.get_response(json.dumps({"board": current_board}))
     print(response)
